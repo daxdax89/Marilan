@@ -1,0 +1,378 @@
+@font-face{
+	font-family: mojFont;
+	src: url('Singer Mears.ttf');
+}
+
+body{
+	background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+	background-attachment: fixed;	
+}
+
+#logo{
+	margin-top: 1%;
+}
+
+#caption{
+	margin-top: 1%;
+	margin-bottom: 1%;
+	padding: 1%;
+	border: 2px dashed #abc4a6;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 3em;
+	color: #abc4a6;
+}
+
+#caption2{
+	margin-top: 1%;
+	font-style: italic;
+	color: #abc4a6;
+}
+
+.centriraj{
+	margin: auto;
+}
+
+.centrirajText{
+	text-align: center;
+}
+
+#navigacija{
+	background-color: transparent;
+	border-color: #abc4a6;
+	margin-top: 2%;
+	border-left: none;
+	border-right: none;
+}
+
+li:hover{
+	color: white;
+}
+
+ul{
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#content{
+	background-color: white;
+}
+
+.ribbonGornji {
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+	width: 0;
+	height: 100px;
+	border: 50px solid #1abc9c;
+	border-top: 0 solid;
+	border-bottom: 35px solid rgba(0,0,0,0);
+	font: normal 100%/normal Arial, Helvetica, sans-serif;
+	color: rgba(0,0,0,1);
+	-o-text-overflow: clip;
+	text-overflow: clip;
+	position: absolute;
+	top:20px;
+}
+
+#profile{
+	background-image: url('img/profile.jpg');
+	/* make a square container */
+	width: 256px;
+	height: 256px;
+	align-items: center;
+	align-content: center;
+	/* fill the container, preserving aspect ratio, and cropping to fit */
+	background-size: cover;
+	/* center the image vertically and horizontally */
+	background-position: center;
+	/* round the edges to a circle with border radius 1/2 container size */
+	border-radius: 50%;
+	border: 3px #a9c1a4 solid;
+	box-shadow: 0 5px 50px 5px #000;
+	margin-top: 8%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smallCircle{
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	background-color: #efe092;
+	border: 4px solid #fff;
+	box-shadow: 0 0 0 5px #abc4a6;
+	margin: auto;
+}
+
+.lineHeight{
+	line-height: 6em;
+}
+
+.circleCaption{
+	color: #9db196;
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+#kruzici{
+	background-image: url('img/divback.jpg');
+	margin: auto;
+	text-align: center;
+	padding: 2%;
+}
+
+#krug1:hover, #krug2:hover, #krug3:hover, #krug4:hover{
+	background-color: #4d4d4d;
+	
+}
+
+#omeni{
+	margin-top: 8%;
+	color: #8e8e8e;
+	font-size: 2em;
+}
+
+#omeni2{
+	color: #8e8e8e;
+	font-weight: bold;
+	font-style: italic;
+}
+
+h1{
+	font-weight: bold;
+	text-align: center;
+	color: #abc4a6;
+	font-style: italic;
+}
+
+
+hr.style16 { 
+	border-top: 1px dashed #8c8b8b; 
+} 
+
+hr.style16:after { 
+	content: '\002702'; 
+	display: inline-block; 
+	position: relative; 
+	top: -12px; 
+	left: 40px; 
+	padding: 0 3px; 
+	background: #f0f0f0; 
+	color: #8c8b8b; 
+	font-size: 18px; 
+}
+
+#dobrodosli{
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 3%;
+	color: white;
+	font-style: italic;
+	text-align: center;
+}
+
+#footer{
+	padding: 1%;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+
+}
+
+#lajk{
+	color: white;
+	font-style: italic;
+	font-size: 2em;
+}
+
+i{
+	color: #a9c1a4;
+}
+
+#ikona { transition: all .2s ease-in-out; }
+#ikona:hover { transform: scale(1.1); }
+
+
+/* ribbon style */
+
+.ribbon-wrapper {
+	margin-top: 4%;
+	position: relative;
+}
+.ribbon-front {
+	background-color: #a9c1a4;	height: 50px;
+	width: 110%;
+	position: relative;
+	left:-40px;
+	z-index: 2;
+	line-height: 1.5em;
+	box-shadow: 5px 5px 5px #000;
+
+}
+
+.ribbon-front2 {
+	background-color: #a9c1a4;	
+	height: 50px;
+	width: 100%;
+	position: relative;
+	left:-40px;
+	z-index: 2;
+	line-height: 4em;
+	box-shadow: 5px 5px 5px #000;
+}
+
+#dobrodosli2{
+	font-weight: bold;
+	font-size: 1.3em;
+	color: white;
+	font-style: italic;
+	text-align: center;
+}
+
+.ribbon-edge-topleft,
+.ribbon-edge-topright,
+.ribbon-edge-bottomleft,
+.ribbon-edge-bottomright {
+	position: absolute;
+	z-index: 1;
+	border-style:solid;
+	height:0px;
+	width:0px;
+}
+
+.ribbon-edge-topleft,
+.ribbon-edge-topright {
+}
+
+.ribbon-edge-bottomleft,
+.ribbon-edge-bottomright {
+	top: 50px;
+}
+
+.ribbon-edge-topleft,
+.ribbon-edge-bottomleft {
+	left: -39px;
+	border-color: transparent #7F927D transparent transparent;
+}
+
+.ribbon-edge-topleft {
+	top: 0px;
+	border-width: 0px 20px 0 0;
+}
+.ribbon-edge-bottomleft {
+	border-width: 0 24px 20px 0;
+}
+
+.ribbon-edge-topright,
+.ribbon-edge-bottomright {
+	left: 260px;
+	border-color: transparent transparent transparent #7F927D;
+}
+
+.ribbon-edge-topright {
+	top: 0px;
+	border-width: 0px 0 0 0px;
+}
+.ribbon-edge-bottomright {
+	border-width: 0 0 0px 0px;
+}
+
+.ribbon-back-right {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 0px;
+	height: 80px;
+	z-index: 0;
+}
+
+#tvrd {
+	padding: .34em 1em;
+	margin: 0;
+	position:relative;
+	color: #ffffff;
+	font: 32px 'Patua One', sans-serif;
+	text-align: center;
+	letter-spacing:0.1em;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+	box-shadow: inset 0px 1px 0px rgba(255,255,255,.3),
+	inset 0px 0px 20px rgba(0,0,0,0.1),
+	0px 1px 1px rgba(0,0,0,0.4);
+	background-color: #abc4a6;
+	display: inline-block;
+}
+
+#tvrd:before, #tvrd:after {
+	content: "";
+	width:.2em;
+	bottom:-.5em;
+	position:absolute;
+	display:block;
+	border: .9em solid #9db196;
+	box-shadow:0px 1px 0px rgba(0,0,0,0.4);
+	z-index:-2;
+}
+
+#tvrd:before {
+	left:-1.15em;
+	border-right-width: .75em;
+	border-left-color:transparent;
+}
+
+#tvrd:after {
+	right:-1.15em;
+	border-left-width: .75em;
+	border-right-color:transparent;
+}
+
+#tvrd2:before, #tvrd2:after {
+	content:"";
+	bottom:-.5em;
+	position:absolute;
+	display:block;
+	border-style:solid;
+	border-color: #9db196 transparent transparent transparent;
+	z-index:-1;
+}
+
+#tvrd2:before {
+	left: 0;
+	border-width: .5em 0 0 .5em;
+}
+
+#tvrd2:after {
+	right: 0;
+	border-width: .5em .5em 0 0;
+}
+
+
+/*CONTACT PAGE*/
+
+label{
+	color: #8e8e8e;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav {
+		width: 100%;
+		text-align: center;
+	}
+	.navbar-nav > li {
+		float: none;
+		display: inline-block;
+	}
+	.navbar-nav > li.navbar-right {
+		float: right !important;
+	}
+
+	#kruzici{
+		background-color: white;
+	}
+}
